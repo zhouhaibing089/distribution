@@ -7,6 +7,9 @@ storage:
     blobdescriptor: inmemory
   filesystem:
     rootdirectory: /var/lib/registry
+auth:
+  keystone:
+    identityURL: https://example.com
 http:
   addr: :5000
   headers:
